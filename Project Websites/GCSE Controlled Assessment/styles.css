@@ -1,0 +1,143 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+}
+
+.header{
+    margin-top: 25px;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container{
+    display: grid;
+    place-items: center;
+}
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    height: 500px;
+    margin-bottom: 250px;
+    
+}
+
+.pic{
+    margin-bottom: 25px;
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 750px;
+    height: 250px;
+}
+
+.pic:hover{
+    cursor: pointer
+}
+
+.login-pic{
+    width: 60vw;
+    height: 80vh;
+}
+
+.login-both-pic{
+    width: 40vw;
+    height: 80vh;
+}
+
+.menu-pic{
+    width: 60vw;
+    height: 80vh;
+}
+
+.apupil-pic{
+    width: 60vw;
+    height: 80vh;
+}
+
+.atime-pic{
+    width: 60vw;
+    height: 80vh;
+}
+
+.quiz-pic{
+    width: 60vw;
+    height: 80vh;
+}
+
+.grppupil-pic{
+    width: 60vw;
+    height: 80vh;
+}
+
+.grplvls-pic{
+    width: 60vw;
+    height: 80vh;
+}
+
+.grpquiz-pic{
+    width: 60vw;
+    height: 80vh;
+}
+
+.text-container-side {
+    right: 140px;
+    width: 1500px;
+    text-align: right;
+}
+
+.text-container-example{
+    right: 150px;
+    width: 1000px;
+    text-align: right;
+}
+
+.text {
+    margin-top: 20vw;
+    margin-left: 25vh;
+    font-size: 35px;
+    word-wrap: break-word;
+}
+
+.text-loginboth {
+    margin-top: 20vw;
+    margin-left: 15vh;
+    font-size: 35px;
+    word-wrap: break-word;
+}
+
+.text-times {
+    margin-top: 40vh;
+    margin-left: 15vw;
+    font-size: 35px;
+    word-wrap: break-word;
+}
+
+.pic-save{
+    margin-left: 150px;
+}
+
+.footer{
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    word-wrap: break-word;
+    width: 100px;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+}

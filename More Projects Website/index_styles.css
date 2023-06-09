@@ -1,0 +1,68 @@
+*{
+    /* Change your font family */
+    font-family: sans-serif;
+    font-size: 20px;
+    background: rgb(26, 126, 208);
+    color: whitesmoke;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+}
+  
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 75vw;
+    min-width: 85vw;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+  
+.content-table thead tr {
+    background-color: transparent;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+  
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+  
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+  
+.content-table tbody tr:nth-of-type(even) {
+    background-color: transparent;
+}
+  
+.content-table tbody tr:last-of-type {
+    background-color: transparent;
+}
+  
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+  
+.learn-more-pic{
+    width: 20px;
+    height: 20px;
+}
+
+.learn-more-text{
+    text-decoration: none;
+}
+
+.learn-more-tag .learn-more-text:hover{
+    text-decoration: underline;
+}
+
+.tbody-head{
+    text-align: left;
+}
