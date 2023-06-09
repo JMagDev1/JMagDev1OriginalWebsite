@@ -1,0 +1,209 @@
+.text{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30vh;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+}
+
+.feature-button {
+	padding: 10px 20px;
+	margin: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.school{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+}
+
+.flipCoin{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+	margin-left: 400px;
+}
+
+.autoclicker{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+	margin-left: 800px;
+}
+
+.time{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+	margin-left: 1200px;
+}
+
+.note{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+	margin-top: 125px;
+}
+
+.dropNeedle{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+	margin-left: 400px;
+	margin-top: 125px;
+}
+
+.TakePic{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+	margin-left: 800px;
+	margin-top: 125px;
+}
+
+.commands{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+	margin-left: 1200px;
+	margin-top: 125px;
+}
+
+.terminate{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+	margin-top: 250px;
+}
+
+.trivia{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+	margin-left: 400px;
+	margin-top: 250px;
+}
+
+.calc{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+	margin-left: 800px;
+	margin-top: 250px;
+}
+
+.ER{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;
+	margin-left: 1200px;
+	margin-top: 250px;
+}
+
+.UC{
+    padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+	flex-wrap: wrap;
+	font-size: 25px;;
+	margin-top: 375px;
+}

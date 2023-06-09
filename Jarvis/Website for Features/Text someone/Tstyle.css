@@ -1,0 +1,30 @@
+.text{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 25vh;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+}
+
+.feature-button {
+	padding: 10px 20px;
+	margin: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.notice{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+}

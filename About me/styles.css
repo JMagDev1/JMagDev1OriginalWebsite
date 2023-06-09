@@ -1,0 +1,42 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.abt-me-container{
+    flex: 0 0 45%;
+    display: grid;
+    place-content: right;
+    width: 50%;
+    background-color: transparent;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    
+}
+
+.abt-par{
+    display: grid;
+    place-content: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.abt-me{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 15px;
+    
+}
+
+.link-helmet{
+    color: black;
+}
+
+.link-helmet:visited{
+    color: black;
+}

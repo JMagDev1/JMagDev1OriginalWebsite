@@ -1,0 +1,486 @@
+.text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 15vh;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+}
+
+.feature-button {
+	padding: 10px 20px;
+	margin: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.gButton{
+	font-size: 18px;
+    font-family: 'Trebuchet MS';
+}
+
+.button-1{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 100px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#enter.button1::before{
+    content: "";
+}
+
+#enter.button1:hover::before{
+    content: "Just say:"
+}
+
+.button-2{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 150px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#ctrl.button2::before{
+    content: "";
+}
+
+#ctrl.button2:hover::before{
+    content: "Just say:"
+}
+
+.button-3{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 200px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#space.button3::before{
+    content: "";
+}
+
+#space.button3:hover::before{
+    content: "Just say:"
+}
+
+.button-4{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 250px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#bspace.button4::before{
+    content: "";
+}
+
+#bspace.button4:hover::before{
+    content: "Just say:"
+}
+
+.button-5{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 250px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#up.button5::before{
+    content: "";
+}
+
+#up.button5:hover::before{
+    content: "Just say:"
+}
+
+.button-6{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 100px;
+	margin-left: 400px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#down.button6::before{
+    content: "";
+}
+
+#down.button6:hover::before{
+    content: "Just say:"
+}
+
+.button-7{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 150px;
+	margin-left: 400px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#left.button7::before{
+    content: "";
+}
+
+#left.button7:hover::before{
+    content: "Just say:"
+}
+
+.button-8{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 200px;
+	margin-left: 400px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#right.button8::before{
+    content: "";
+}
+
+#right.button8:hover::before{
+    content: "Just say:"
+}
+
+.button-9{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 250px;
+	margin-left: 400px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#vup.button9::before{
+    content: "";
+}
+
+#vup.button9:hover::before{
+    content: "Just say:"
+}
+
+.button-10{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 100px;
+	margin-left: 800px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#vdown.button10::before{
+    content: "";
+}
+
+#vdown.button10:hover::before{
+    content: "Just say:"
+}
+
+.button-11{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 150px;
+	margin-left: 800px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#mvol.button11::before{
+    content: "";
+}
+
+#mvol.button11:hover::before{
+    content: "Just say:"
+}
+
+.button-12{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 200px;
+	margin-left: 800px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#scrup.button12::before{
+    content: "";
+}
+
+#scrup.button12:hover::before{
+    content: "Just say:"
+}
+
+.button-13{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 250px;
+	margin-left: 800px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#scrdown.button13::before{
+    content: "";
+}
+
+#scrdown.button13:hover::before{
+    content: "Just say:"
+}
+
+.button-14{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 100px;
+	margin-left: 1150px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#closewindow.button14::before{
+    content: "";
+}
+
+#closewindow.button14:hover::before{
+    content: "Just say:"
+}
+
+.button-15{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 150px;
+	margin-left: 1150px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#skpsng.button15::before{
+    content: "";
+}
+
+#skpsng.button15:hover::before{
+    content: "Just say:"
+}
+
+.button-16{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 200px;
+	margin-left: 1150px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#bkpsng.button16::before{
+    content: "";
+}
+
+#bksng.button16:hover::before{
+    content: "Just say:"
+}
+
+.button-17{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 250px;
+	margin-left: 1150px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#volmusiclvl.button17::before{
+    content: "";
+}
+
+#volmusiclvl.button17:hover::before{
+    content: "Just say:"
+}
+
+.button-18{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 300px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#mutemic.button18::before{
+    content: "";
+}
+
+#mutemic.button18:hover::before{
+    content: "Just say:"
+}
+
+.button-19{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 300px;
+	margin-left: 400px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#unmmic.button19::before{
+    content: "";
+}
+
+#unmmic.button19:hover::before{
+    content: "Just say:"
+}
+
+.button-20{
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #c82b2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+    position: absolute;
+    margin-top: 300px;
+	margin-left: 800px;
+	flex-wrap: wrap;
+    transition: transform 0.2s ease;
+}
+
+#scrshot.button20::before{
+    content: "";
+}
+
+#scrshot.button20:hover::before{
+    content: "Just say:"
+}
+
+.footer{
+	font-size: medium;
+	font-family: 'Trebuchet MS';
+}	
