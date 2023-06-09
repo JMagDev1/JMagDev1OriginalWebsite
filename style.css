@@ -241,9 +241,10 @@ body {
     border-style: solid;
     border-width: 1px;
     border-radius: 15px;
+    height: 104.5vh;
     word-spacing: 105%;
     line-height: 105%;
-
+    
 }
 
 .projects-par{
@@ -252,6 +253,7 @@ body {
     padding-top: 10px;
     padding-bottom: 15px;
     font-weight: 500;
+    
 }
 
 .projects-overview{
@@ -259,8 +261,7 @@ body {
     margin-right: 10%;
     font-size: 22px;
     text-align: left;
-    padding-bottom: 15px;
-    
+    padding-bottom: 15px;    
 }
 
 .projects-list{
@@ -272,6 +273,7 @@ body {
     border-color: whitesmoke;
     border-style: solid;
     border-width: 1px;
+    height: 102vh;
 }
 
 .nav-title{
@@ -332,11 +334,10 @@ body {
 }
 
 .more-projects{
-    writing-mode: vertical-lr;
     color: white;
-    margin-top: 250px;
-    margin-left: 25px;
-    font-size: 25px;
+    margin-left: 40%;
+    font-size: 1.2rem;
+    
 }
 
 .information-header{
@@ -361,190 +362,6 @@ body {
 .nav-bar-text:hover{
     cursor: pointer;    
 }
-
-.jarvis-project {
-    display: flex;
-    align-items: center;
-    padding-top: 25px;
-    width: 1500px;
-    height: 500px;
-}
-
-.jarvis-pic {
-    border-radius: 5px;
-    margin-left: 25px;
-    width: 750px;
-    height: 500px;
-}
-
-.jarvis-pic:hover{
-    cursor: pointer;
-}
-
-.jarvis-text-container {
-    width: 600px;
-    text-align: left;
-}
-
-.jarvis-text {
-    margin-left: 100px;
-    font-size: 35px;
-    word-wrap: break-word;
-}
-
-.golf-score-card-project {
-    display: flex;
-    align-items: center;
-    width: 1500px;
-    height: 500px;
-}
-
-.score-card-pic {
-    border-radius: 5px;
-    margin-left: 25px;
-    width: 750px;
-    height: 250px;
-}
-
-.golf-score-card-pic:hover{
-    cursor: pointer
-}
-
-.score-card-text-container {
-    width: 600px;
-    text-align: right;
-}
-
-.score-card-text {
-    margin-left: 100px;
-    font-size: 35px;
-    word-wrap: break-word;
-}
-
-.google-homepage-project {
-    display: flex;
-    align-items: center;
-    width: 1500px;
-    height: 500px;
-}
-
-.homepage-pic {
-    border-radius: 5px;
-    margin-left: 25px;
-    width: 750px;
-    height: 400px;
-}
-
-.homepagepic:hover{
-    cursor: pointer
-}
-
-.homepage-text-container {
-    width: 600px;
-    text-align: right;
-}
-
-.homepage-text {
-    margin-left: 100px;
-    font-size: 35px;
-    word-wrap: break-word;
-}
-
-.marvel-project {
-    display: flex;
-    align-items: center;
-    width: 1500px;
-    height: 500px;
-}
-
-.marvel-pic {
-    border-radius: 5px;
-    margin-left: 25px;
-    width: 750px;
-    height: 500px;
-}
-
-.marvel:hover{
-    cursor: pointer
-}
-
-.marvel-text-container {
-    width: 600px;
-    text-align: right;
-}
-
-.marvel-text {
-    margin-left: 100px;
-    font-size: 35px;
-    word-wrap: break-word;
-}
-
-.interests-form-project {
-    display: flex;
-    align-items: center;
-    width: 1500px;
-    height: 500px;
-}
-
-.interests-pic {
-    border-radius: 5px;
-    margin-left: 25px;
-    width: 750px;
-    height: 415px;
-}
-
-.interests-pic:hover {
-    cursor: pointer;
-}
-
-.interests-text-container {
-    width: 600px;
-    text-align: right;
-}
-
-.interests-text {
-    margin-left: 150px;
-    margin-bottom: 50px;
-    font-size: 35px;
-    word-wrap: break-word;
-}
-
-.autoclicker-project {
-    display: flex;
-    align-items: center;
-    width: 1500px;
-    height: 500px;
-}
-
-.autoclicker-pic {
-    border-radius: 5px;
-    margin-left: 25px;
-    width: 750px;
-    height: 415px;
-}
-
-.autocicker-pic:hover {
-    cursor: pointer;
-}
-
-.autocicker-text-container {
-    width: 600px;
-    text-align: right;
-}
-
-.autoclicker-text {
-    margin-left: 150px;
-    margin-bottom: 50px;
-    font-size: 35px;
-    word-wrap: break-word;
-}
-
-#more-projects{
-    display: none;
-    background: linear-gradient(to bottom, #6451b9 0%,  #56739a 50%, #62569a 100%);
-   
-}
-
 
 #contact{
     padding-top: 15px;
