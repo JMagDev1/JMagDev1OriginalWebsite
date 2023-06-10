@@ -390,6 +390,7 @@ html {
 @media (max-width: 600px) {
     body {
       font-size: 10px; /* Decrease the font size for mobile */
+      overflow-x: hidden;
     }
     
     .landing-portion-text {
@@ -420,7 +421,7 @@ html {
     .nav-links {
       margin-left: 20px; /* Adjust margin for smaller screens */
       font-size: 15px; /* Decrease font size for mobile */
-      line-height: 150%;
+      line-height: 500%;
     }
     
     .projects-container {
@@ -428,18 +429,49 @@ html {
       height: auto; /* Remove fixed height */
     }
     
+    .projects-overview{
+        font-size: 15px;
+        font-weight: 10;
+        line-height: 105%;
+    }
+    
     .projects-list {
       width: 90%; /* Adjust width for smaller screens */
       height: auto; /* Remove fixed height */
     }
     
+    .project-container {
+        flex-direction: column; /* Stack the elements vertically */
+        align-items: flex-start; /* Align elements to the left */
+    }
+      
+    .project-images {
+        margin-right: 0; /* Remove the right margin */
+        margin-bottom: 10px; /* Add space between the images and text */
+    }
+      
+    .projects-text,
+    .projects-text-ghp {
+        margin-left: 0; /* Remove the left margin */
+    }
+
+    .project-images {
+        width: 100px; /* Adjust the width of the images */
+        height: auto; /* Let the height scale proportionally */
+    }
+      
+    .project-image-ghp {
+        width: 120px; /* Adjust the width of the GitHub project images */
+        height: auto; /* Let the height scale proportionally */
+    }
+
     .project-images {
       width: 100px; /* Decrease image size for mobile */
       margin-right: 20px; /* Adjust margin for smaller screens */
     }
     
     .projects-text {
-      margin-left: 50px; /* Adjust margin for smaller screens */
+      margin-left: 2vw; /* Adjust margin for smaller screens */
     }
     
     .project-image-ghp {
@@ -449,7 +481,7 @@ html {
     }
     
     .projects-text-ghp {
-      margin-left: 30px; /* Adjust margin for smaller screens */
+      margin-left: 2vw; /* Adjust margin for smaller screens */
     }
     
     .more-projects {
