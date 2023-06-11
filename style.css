@@ -486,14 +486,15 @@ html {
     }
     
     .more-projects {
-      margin-left: 20%; /* Adjust margin for smaller screens */
+      margin-left: 1vw; /* Adjust margin for smaller screens */
       font-size: 1rem; /* Decrease font size for mobile */
     }
     
     .main-cnt-container {
         padding-top: 30vh;
         padding-bottom: 10vh;
-        height: auto; /* Remove fixed height */
+        margin-top: 25vh;
+        height: 25vh; /* Remove fixed height */
     }
     
     .contact-info {
