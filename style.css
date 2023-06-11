@@ -387,7 +387,7 @@ html {
 }
 
 /* Mobile styles */
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     body {
       font-size: 10px; /* Decrease the font size for mobile */
       overflow-x: hidden;
@@ -426,18 +426,19 @@ html {
     
     .projects-container {
       width: 90%; /* Adjust width for smaller screens */
-      height: auto; /* Remove fixed height */
+      height: 128vh;
     }
     
     .projects-overview{
         font-size: 15px;
         font-weight: 10;
         line-height: 105%;
+        
     }
     
     .projects-list {
       width: 90%; /* Adjust width for smaller screens */
-      height: auto; /* Remove fixed height */
+      height: 125vh; /* Remove fixed height */
     }
     
     .project-container {
@@ -490,7 +491,9 @@ html {
     }
     
     .main-cnt-container {
-      height: auto; /* Remove fixed height */
+        padding-top: 30vh;
+        padding-bottom: 10vh;
+        height: auto; /* Remove fixed height */
     }
     
     .contact-info {
