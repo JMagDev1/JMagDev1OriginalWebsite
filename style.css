@@ -436,7 +436,7 @@ html {
     }
     
     .projects-list {
-      width: 80%; /* Adjust width for smaller screens */
+      width: auto; /* Adjust width for smaller screens */
       height: 110vh; /* Remove fixed height */
 
     }
