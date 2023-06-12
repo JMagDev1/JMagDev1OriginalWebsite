@@ -432,7 +432,7 @@ body {
   .projects-container {
     width: 90%; /* Adjust width for smaller screens */
     height: 113vh;
-    width: 40vw;
+    width: 250px;
   }
   
   .projects-overview{
@@ -442,7 +442,7 @@ body {
   }
   
   .projects-list {
-    width: 40vw; /* Adjust width for smaller screens */
+    width: 250px; /* Adjust width for smaller screens */
     height: 110vh; /* Remove fixed height */
 
   }
