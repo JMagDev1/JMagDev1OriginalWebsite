@@ -484,7 +484,7 @@ body {
   }
   
   .project-image-ghp {
-    width: 150px; /* Decrease image size for mobile */
+    width: 120px; /* Decrease image size for mobile */
     height: 75px;
     margin-right: 20px; /* Adjust margin for smaller screens */
   }
