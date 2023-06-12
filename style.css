@@ -432,8 +432,7 @@ html {
     .projects-overview{
         font-size: 15px;
         font-weight: 10;
-        line-height: 105%;
-        
+        line-height: 105%;   
     }
     
     .projects-list {
@@ -444,6 +443,10 @@ html {
     .project-container {
         flex-direction: column; /* Stack the elements vertically */
         align-items: flex-start; /* Align elements to the left */
+    }
+
+    .project-coding-title{
+      font-size: 15px;
     }
       
     .project-images {
@@ -472,6 +475,7 @@ html {
     }
     
     .projects-text {
+      font-size: 15px;
       margin-left: 2vw; /* Adjust margin for smaller screens */
     }
     
@@ -482,6 +486,7 @@ html {
     }
     
     .projects-text-ghp {
+      font-size: 15px;
       margin-left: 2vw; /* Adjust margin for smaller screens */
     }
     
@@ -491,9 +496,7 @@ html {
     }
     
     .main-cnt-container {
-        
         margin-top:25vh;
-        
         height: 20vh; /* Remove fixed height */
     }
     
