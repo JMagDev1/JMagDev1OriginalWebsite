@@ -426,7 +426,7 @@ html {
     
     .projects-container {
       width: 90%; /* Adjust width for smaller screens */
-      height: 128vh;
+      height: 113vh;
     }
     
     .projects-overview{
@@ -437,7 +437,7 @@ html {
     
     .projects-list {
       width: 90%; /* Adjust width for smaller screens */
-      height: 125vh; /* Remove fixed height */
+      height: 110vh; /* Remove fixed height */
     }
     
     .project-container {
@@ -496,7 +496,7 @@ html {
     }
     
     .main-cnt-container {
-        margin-top:25vh;
+        margin-top:15vh;
         height: 20vh; /* Remove fixed height */
     }
     
