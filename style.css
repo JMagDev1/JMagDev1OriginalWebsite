@@ -386,6 +386,8 @@ body {
   padding-left: 25px;
 }
 
+
+
 /* Mobile styles */
 @media (max-width: 750px) {
   body {
@@ -542,3 +544,5 @@ body {
     line-height: 150%;
   }
 }
+
+
