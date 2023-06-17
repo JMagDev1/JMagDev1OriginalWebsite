@@ -453,6 +453,7 @@ body {
     width: 90vw;
     height: auto;
     line-height: 150%;
+    margin-top: 5vh;
     margin-bottom: 3vh;
   }
   
@@ -462,7 +463,6 @@ body {
     margin-right: 10vw;
     margin-left: 10vw;
     font-weight: 10;
-    margin-top: 5vh;
     width: calc(90vw - 20vw); /* subtract the total margin width */
     
   }
@@ -524,6 +524,7 @@ body {
   }
   
   .more-projects {
+    margin-top: 2vh;
     margin-left: 1vw; /* Adjust margin for smaller screens */
     font-size: 1rem; /* Decrease font size for mobile */
   }
