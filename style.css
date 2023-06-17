@@ -442,6 +442,10 @@ body {
     font-weight: 10; 
   }
 
+  #Projects{
+    height: 125vh;
+  }
+
   .main-abt-container {
     display: flex;
     flex-wrap: wrap;
@@ -530,7 +534,7 @@ body {
   }
   
   .main-cnt-container {
-      margin-top: 5vh;
+      margin-top: 2vh;
       height: 20vh; /* Remove fixed height */
       width: 90vw;
   }
