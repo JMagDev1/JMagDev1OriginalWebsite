@@ -528,7 +528,7 @@ body {
   }
   
   .main-cnt-container {
-      margin-top: -5vh;
+      margin-top: 5vh;
       height: 20vh; /* Remove fixed height */
       width: 90vw;
   }
@@ -687,7 +687,7 @@ body {
   }
   
   .main-cnt-container {
-      margin-top: 5vh;
+      margin-top: 8vh;
       height: 20vh; /* Remove fixed height */
       width: 90vw;
   }
