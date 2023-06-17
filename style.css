@@ -389,7 +389,7 @@ body {
 
 
 /* Mobile styles */
-@media (max-width: 750px) {
+@media (max-width: 750px) and (max-height: 1400px) {
   body {
     font-size: 10px; /* Decrease the font size for mobile */
     overflow-x: hidden;
@@ -462,6 +462,7 @@ body {
     margin-right: 10vw;
     margin-left: 10vw;
     font-weight: 10;
+    margin-top: 5vh;
     width: calc(90vw - 20vw); /* subtract the total margin width */
     
   }
@@ -545,161 +546,3 @@ body {
   }
 }
 
-
-
-
-@media (max-height: 1400px) {
-  body {
-    font-size: 10px; /* Decrease the font size for mobile */
-    overflow-x: hidden;
-  }
-  
-  .landing-portion-text {
-      font-size: 25px;
-      word-wrap: break-word;
-      margin-left: 2rem; /* Adjust margin for smaller screens */
-      margin-bottom: 10vh;
-      width: 90vw; /* Adjust width for smaller screens */
-  }
-  
-  .scroll-img {
-    width: 30px; /* Decrease image size for mobile */
-    height: 30px;
-  }
-
-  .abt-me-container {
-    width: 90vw;
-    font-size: 15px;
-    font-weight: 10;
-    word-spacing: 100%;
-    line-height: 100%;
-    margin-bottom: 3vh;
-  }
-  
-  .abt-me {
-    font-size: 15px;
-    overflow-wrap: break-word;
-    margin-right: 5vw;
-    margin-left: 5vw;
-    font-weight: 10;
-    width: calc(90vw - 20vw); /* subtract the total margin width */
-  }
-  
-  .nav-ui{
-    height: 113vh;
-    width: 90vw;
-    height: auto;
-    line-height: 125%;
-    font-size: 15px;
-    margin-bottom: -2vh;
-  }
-
-  .nav-links {
-    font-size: 15px;
-    overflow-wrap: break-word;
-    margin-right: 10vw;
-    font-weight: 10; 
-  }
-
-  .main-abt-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-  }
-
-  .projects-container {
-    height: 113vh;
-    width: 90vw;
-    height: auto;
-    line-height: 150%;
-    margin-bottom: 3vh;
-  }
-  
-  .projects-overview{
-    font-size: 15px;
-    overflow-wrap: break-word;
-    margin-right: 10vw;
-    margin-left: 10vw;
-    font-weight: 10;
-    width: calc(90vw - 20vw); /* subtract the total margin width */
-    
-  }
-  
-  .projects-list {
-    flex: 1 1 100%;
-    width: 90vw;
-    height: auto; /* Remove fixed height */
-  }
-  
-  .project-container {
-      flex-direction: row; /* Stack the elements vertically */
-      align-items: flex-start; /* Align elements to the left */
-  }
-
-  .project-coding-title{
-    font-size: 15px;
-  }
-    
-  .project-images {
-      margin-right: 0; /* Remove the right margin */
-      margin-bottom: 10px; /* Add space between the images and text */
-  }
-    
-  .projects-text,
-  .projects-text-ghp {
-      margin-left: 0; /* Remove the left margin */
-  }
-
-  .project-images {
-      width: 100px; /* Adjust the width of the images */
-      height: auto; /* Let the height scale proportionally */
-  }
-    
-  .project-image-ghp {
-      width: 120px; /* Adjust the width of the GitHub project images */
-      height: auto; /* Let the height scale proportionally */
-  }
-
-  .project-images {
-    width: 100px; /* Decrease image size for mobile */
-    margin-right: 20px; /* Adjust margin for smaller screens */
-  }
-  
-  .projects-text {
-    font-size: 15px;
-    margin-left: 2vw; /* Adjust margin for smaller screens */
-  }
-  
-  .project-image-ghp {
-    width: 120px; /* Decrease image size for mobile */
-    height: 75px;
-    margin-right: 20px; /* Adjust margin for smaller screens */
-  }
-  
-  .projects-text-ghp {
-    font-size: 15px;
-    margin-left: 5vw; /* Adjust margin for smaller screens */
-  }
-  
-  .more-projects {
-    margin-left: 1vw; /* Adjust margin for smaller screens */
-    font-size: 1rem; /* Decrease font size for mobile */
-  }
-  
-  .main-cnt-container {
-      margin-top: 8vh;
-      height: 20vh; /* Remove fixed height */
-      width: 90vw;
-  }
-  
-  .contact-info {
-    width: 90%; /* Adjust width for smaller screens */
-    height: 15vh;
-  }
-  
-  .cnt-link {
-    margin-left: 20px; /* Adjust margin for smaller screens */
-    font-size: 15px; /* Decrease font size for mobile */
-    line-height: 150%;
-  }
-}
