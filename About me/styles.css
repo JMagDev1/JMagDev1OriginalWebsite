@@ -46,5 +46,13 @@ html{
     width: 90vw;
     word-wrap: break-word;
   }
+  
+  .abt-par{ 
+    font-size:25px;
+  }
+
+  .abt-me{
+    font-size: 20px;
+  }
 }
     
