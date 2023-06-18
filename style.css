@@ -408,6 +408,10 @@ body {
     height: 30px;
   }
 
+  #About-me-nav{
+    height: 125vh;
+  }
+
   .abt-me-container {
     width: 90vw;
     font-size: 15px;
@@ -427,33 +431,32 @@ body {
   }
   
   .nav-ui{
-    height: 113vh;
+    height: 100vh;
     width: 90vw;
     height: auto;
     line-height: 125%;
     font-size: 15px;
-    margin-bottom: 5vh;
+    padding-bottom: 0;
+    padding-bottom: 1vh;
   }
 
   .nav-links {
     font-size: 15px;
     overflow-wrap: break-word;
     margin-right: 10vw;
-    font-weight: 10; 
-  }
-
-  #Projects{
-    height: 125vh;
+    font-weight: 10;
+    padding-bottom: 1vh; 
   }
 
   .main-abt-container {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
+    height: 120vh;
   }
 
   .projects-container {
-    height: 113vh;
+    height: 115vh;
     width: 90vw;
     height: auto;
     line-height: 150%;
