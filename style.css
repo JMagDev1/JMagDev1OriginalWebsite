@@ -410,10 +410,19 @@ body {
 
   #About-me-nav{
     height: 125vh;
+    display: flex;
+    justify-self: center;
+  }
+
+  .main-abt-container{
+    display: flex;
+    justify-content: center;
   }
 
   .abt-me-container {
     width: 90vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
     font-size: 15px;
     font-weight: 10;
     word-spacing: 100%;
@@ -430,15 +439,20 @@ body {
     width: calc(90vw - 20vw); /* subtract the total margin width */
   }
   
-  .nav-ui{
-    height: 100vh;
-    width: 90vw;
-    height: auto;
-    line-height: 125%;
+  .nav-ui {
+    width: 100%;
+    margin-top: 3vh;
     font-size: 15px;
+    font-weight: 10;
+    word-spacing: 100%;
+    line-height: 100%;
+    margin-bottom: 3vh;
     padding-bottom: 0;
     padding-bottom: 1vh;
+    margin-left: 5vw; /* adjust left margin */
+    margin-right: 5vw; /* adjust right margin */
   }
+  
 
   .nav-links {
     font-size: 15px;
