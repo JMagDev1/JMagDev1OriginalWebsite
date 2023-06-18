@@ -40,3 +40,11 @@ html{
 .link-helmet:visited{
     color: black;
 }
+
+@media (max-width: 750px) {
+  .abt-me-container{
+    width: 90vw;
+    word-wrap: break-word;
+  }
+}
+    
