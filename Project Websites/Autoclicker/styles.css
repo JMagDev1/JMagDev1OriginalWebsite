@@ -1,72 +1,76 @@
-body{
-    font-family: 'Roboto', sans-serif;
-}
+/* Common styles */
 
-html{
+body {
+    font-family: 'Roboto', sans-serif;
+    background: blue;
+  }
+  
+  html {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to top, #0000ff 0%, #0000b2 100%);
-}
-
-.header{
-    margin-top: 25px;
+    
+  }
+  
+  .header {
+    margin-top: 2vh;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
-}
-
-.header-container{
+  }
+  
+  .header-container {
     display: grid;
     place-items: center;
-}
-
-
-.main-container{
+  }
+  
+  .main-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 1500px;
-    height: 500px;
+    justify-content: flex-start;
     margin-bottom: 100px;
-}
-
-.homepage-pic{
+    margin-top: 100px;
+  }
+  
+  .homepage-pic {
     margin-top: 100px;
     margin-bottom: 25px;
     border-radius: 5px;
     margin-left: 25px;
-    width: 900px;
-    height: 550px;
-}
-
-.pic:hover{
-    cursor: pointer
-}
-
-.text-container {
+    width: 80vw;
+    height: 60vh;
+    object-fit: cover; /* Ensure the image maintains aspect ratio and covers the container */
+  }
+  
+  .pic:hover {
+    cursor: pointer;
+  }
+  
+  .text-container {
     width: 900px;
     text-align: left;
-}
-
-.text {
-    width: 450px;
+  }
+  
+  .text {
+    width: 80vw;
     right: 150px;
-    margin-top: 150px;
-    margin-left: 5vw;
+    margin-top: 5vh;
+    margin-left: 1vw;
     font-size: 35px;
     word-wrap: break-word;
-}
-
-.pic-save{
+  }
+  
+  .pic-save {
     margin-left: 150px;
-}
-
-.footer{
+  }
+  
+  .footer {
     display: grid;
     place-items: center;
     font-size: 25px;
-    margin-bottom: 15px;
-}
-
-.btn{
+    margin-bottom: 3vh;
+  }
+  
+  .btn {
     font-size: 15px;
     position: absolute;
     top: 10px;
@@ -81,87 +85,43 @@ html{
     border: solid;
     border-width: 1px;
     border-radius: 4px;
-}
-
-@media (max-width: 750px) {
-    .body {
-        font-family: 'Roboto', sans-serif;
-      }
-      
-      html {
-        height: 100vh;
-        width: 100vw;
-        background: linear-gradient(to top, #0000ff 0%, #0000b2 100%);
-      }
-      
-      .header {
-        margin-top: 25px;
-        font-size: 50px;
-        font-family: 'Roboto', sans-serif;
-      }
-      
-      .header-container {
-        display: grid;
-        place-items: center;
-      }
-      
-      .main-container {
-        display: flex;
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center;
-        justify-content: flex-start; /* Align items at the top */
-        margin-bottom: 100px;
-        margin-top: 100px; /* Add margin-top to move the whole container down */
-      }
-      
-      .homepage-pic {
-        border-radius: 5px;
-        width: 900px;
-        height: 550px;
-      }
-      
-      .pic:hover {
-        cursor: pointer;
-      }
-      
-      .text-container {
-        width: 900px;
-        text-align: left;
-        margin-top: 25px; /* Add margin-top to create space between the image and text */
-      }
-      
-      .text {
-        width: 450px;
+  }
+  
+  /* Media Queries for mobile responsiveness */
+  
+  @media (max-width: 768px) {
+    .header-text{
+        margin-left: 60vw;
         font-size: 35px;
-        word-wrap: break-word;
-      }
-      
-      .pic-save {
-        margin-top: 25px; /* Add margin-top to create space between the text and the save button */
-      }
-      
-      .footer {
-        display: grid;
-        place-items: center;
-        font-size: 25px;
-        margin-bottom: 15px;
-      }
-      
-      .btn {
-        font-size: 15px;
-        position: absolute;
-        top: 10px;
-        left: 15px;
-        word-wrap: break-word;
-        width: 150px;
-        margin: 10px;
-        padding: 10px 20px;
-        text-decoration: none;
-        background: transparent;
-        color: white;
-        border: solid;
-        border-width: 1px;
-        border-radius: 4px;
-      }
+    }
 
-} 
+    .main-container {
+      margin-top: 50px;
+    }
+  
+    .homepage-pic {
+        width: 100%;
+        height: 60%;
+        object-fit: contain; /* Make the image fit within the container while maintaining aspect ratio */
+        border-radius: 0; /* Remove border-radius on mobile */
+    }
+  
+    .text-container {
+      width: 90%;
+      padding: 0 5%;
+    }
+  
+    .text {
+      width: 100%;
+      font-size: 28px;
+    }
+  
+    .pic-save {
+      margin-left: 5%;
+    }
+
+    .footer{
+        margin-bottom: 3vh;
+    }
+  }
+  
