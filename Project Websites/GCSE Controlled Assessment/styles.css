@@ -1,131 +1,100 @@
-body{
+/* Common styles */
+body {
     font-family: 'Roboto', sans-serif;
     background-color: grey;
-}
-
-.header{
-    margin-top: 25px;
-    font-size: 45px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.header-container{
-    display: grid;
-    place-items: center;
-}
-
-
-.main-container{
+  }
+  
+  .header {
+    margin-top: 10vh;
     display: flex;
     align-items: center;
-    width: 1500px;
-    height: 500px;
+    justify-content: center; /* Center the text horizontally */
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .header-container {
+    display: grid;
+    place-items: center;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the content vertically */
+    width: 100%;
+    max-width: 1500px;
     margin-bottom: 250px;
-    
-}
-
-.pic{
+  }
+  
+  .pic {
     margin-bottom: 25px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the image horizontally */
+    width: 99%;
+    max-width: 750px;
+    height: auto;
+
+  }
+  
+  .pic:hover {
+    cursor: pointer;
+  }
+  
+  .text-container-side {
+    width: 100%;
+    max-width: 1500px;
+    text-align: right;
+  }
+  
+  .text-container-example {
+    width: 100%;
+    max-width: 1000px;
+    text-align: right;
+  }
+  
+  .text {
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 28px;
+    word-wrap: break-word;
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  .text-loginboth {
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 28px;
+    word-wrap: break-word;
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  .text-times {
+    margin-top: 40px;
+    margin-left: 0;
+    font-size: 28px;
+    word-wrap: break-word;
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  .pic-save {
     margin-left: 30px;
-    width: 750px;
-    height: 250px;
-}
-
-.pic:hover{
-    cursor: pointer
-}
-
-.login-pic{
-    width: 60vw;
-    height: 80vh;
-}
-
-.login-both-pic{
-    width: 40vw;
-    height: 80vh;
-}
-
-.menu-pic{
-    width: 60vw;
-    height: 80vh;
-}
-
-.apupil-pic{
-    width: 60vw;
-    height: 80vh;
-}
-
-.atime-pic{
-    width: 60vw;
-    height: 80vh;
-}
-
-.quiz-pic{
-    width: 60vw;
-    height: 80vh;
-}
-
-.grppupil-pic{
-    width: 60vw;
-    height: 80vh;
-}
-
-.grplvls-pic{
-    width: 60vw;
-    height: 80vh;
-}
-
-.grpquiz-pic{
-    width: 60vw;
-    height: 80vh;
-}
-
-.text-container-side {
-    right: 140px;
-    width: 1500px;
-    text-align: right;
-}
-
-.text-container-example{
-    right: 150px;
-    width: 1000px;
-    text-align: right;
-}
-
-.text {
-    margin-top: 20vw;
-    margin-left: 25vh;
-    font-size: 35px;
-    word-wrap: break-word;
-}
-
-.text-loginboth {
-    margin-top: 20vw;
-    margin-left: 15vh;
-    font-size: 35px;
-    word-wrap: break-word;
-}
-
-.text-times {
-    margin-top: 40vh;
-    margin-left: 15vw;
-    font-size: 35px;
-    word-wrap: break-word;
-}
-
-.pic-save{
-    margin-left: 150px;
-}
-
-.footer{
+  }
+  
+  .footer {
     display: grid;
     place-items: center;
     font-size: 25px;
     margin-bottom: 25px;
-}
-
-.btn{
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  .btn {
     font-size: 15px;
     position: absolute;
     top: 10px;
@@ -140,11 +109,48 @@ body{
     border: solid;
     border-width: 1px;
     border-radius: 4px;
-}
-
-.additional-links{
+  }
+  
+  .additional-links {
     color: black;
     margin-bottom: 0px;
     margin-bottom: 10px;
-
-}
+  }
+  
+  /* Media Queries for mobile responsiveness */
+  @media (max-width: 768px) {
+    .main-container {
+      width: 90vw;
+      margin-bottom: 100px;
+    }
+  
+    .pic {
+      margin-left: 0;
+      max-width: 90vw;
+    }
+  
+    .text {
+      margin-top: 20px;
+      font-size: 20px;
+      text-align: center; /* Center the text horizontally */
+    }
+  
+    .text-loginboth,
+    .text-times {
+      margin-top: 20px;
+      font-size: 20px;
+      text-align: center; /* Center the text horizontally */
+    }
+  
+    .pic-save {
+      margin-left: 0;
+    }
+  
+    .footer {
+      margin-left: 2vw;
+      width: 100vw;
+      font-size: 20px;
+      text-align: center; /* Center the text horizontally */
+    }
+  }
+  
