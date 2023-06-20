@@ -1,94 +1,123 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to bottom, #e32b28 0%, #eec600 100%);
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #e32b28 0%, #eec600 100%);
 }
 
-.header{
-    margin-top: 25px;
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+.header {
+  margin-top: 25px;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
-.header-container{
-    display: grid;
-    place-items: center;
+.header-container {
+  display: grid;
+  place-items: center;
 }
 
-
-.main-container{
-    display: flex;
-    align-items: center;
-    width: 1500px;
-    height: 500px;
-    margin-bottom: 250px;
-    
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 250px;
 }
 
-.pic{
+.pic {
+    margin: 0 auto;
     margin-bottom: 25px;
     border-radius: 5px;
-    margin-left: 30px;
-    width: 750px;
-    height: 250px;
+    width: 75%;
+    max-width: 750px;
 }
 
-.pic:hover{
-    cursor: pointer
+.pic:hover {
+  cursor: pointer;
 }
 
-.score-card-pic{
-    width: 30vw;
-    height: 80vh;
+.score-card-pic,
+.front-top {
+  width: 75%;
+  max-height: 80vh;
 }
 
-.front-top{
-    width: 25vw;
-    height: 80vh;
-}
-
-.text-container-side {
-    right: 150px;
-    width: 1500px;
-    text-align: right;
-}
-
-.text-container-example{
-    right: 150px;
-    width: 1000px;
-    text-align: right;
+.text-container-side,
+.text-container-example {
+  width: 100%;
+  text-align: center;
 }
 
 .text {
-    margin-top: 150px;
-    margin-left: 300px;
-    font-size: 35px;
-    word-wrap: break-word;
+  margin-top: 25px;
+  font-size: 35px;
+  text-align: center;
 }
 
-.pic-save{
-    margin-left: 150px;
+.pic-save {
+  margin-left: 0;
+  margin-top: 25px;
 }
 
-.footer{
-    display: grid;
-    place-items: center;
-    font-size: 25px;
-    margin-bottom: 25px;
+.footer {
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  margin-bottom: 25px;
 }
 
-.btn{
-    font-size: 15px;
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    word-wrap: break-word;
-    width: 150px;
-    margin: 10px;
-    padding: 10px 20px;
-    text-decoration: none;
-    background: transparent;
-    color: white;
-    border: solid;
-    border-width: 1px;
-    border-radius: 4px;
+.btn {
+  font-size: 15px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  word-wrap: break-word;
+  width: 150px;
+  margin: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background: transparent;
+  color: white;
+  border: solid;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 768px) {
+  .main-container {
+    margin-bottom: 50px; /* Adjust the margin for spacing */
+  }
+  
+  .pic {
+    width: 100%; /* Adjust to the full width of the container */
+    max-width: 100%; /* Remove the maximum width limit */
+    height: auto; /* Adjust the height automatically */
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 25px; /* Adjust the margin for spacing */
+  }
+
+  .score-card-pic,
+  .front-top {
+    width: 100%; /* Adjust to the full width of the container */
+    max-height: none; /* Remove the maximum height limit */
+  }
+
+  .text-container-side,
+  .text-container-example {
+    text-align: center; /* Center the text */
+    margin: 0 auto; /* Center horizontally */
+    width: 100%; /* Adjust to the full width of the container */
+    padding: 0 20px; /* Add some horizontal padding */
+  }
+
+  .text {
+    margin-top: 25px; /* Adjust the margin for spacing */
+    font-size: 30px; /* Decrease the font size */
+    text-align: center; /* Center the text */
+  }
+
+  .pic-save {
+    margin-left: 0; /* Remove left margin */
+    margin-top: 25px; /* Adjust the margin for spacing */
+  }
 }
