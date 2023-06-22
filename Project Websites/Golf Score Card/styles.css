@@ -1,29 +1,30 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to bottom, rgb(0, 174, 0) 0%, darkgreen 100%);
 }
 
-.header{
+.header {
     margin-top: 25px;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
 }
 
-.header-container{
+.header-container {
     display: grid;
     place-items: center;
 }
 
-
-.main-container{
+.main-container {
     display: flex;
+    flex-direction: column; /* Stacking elements vertically */
     align-items: center;
-    width: 1500px;
-    height: 500px;
+    width: 90vw;
+    height: 90vh;
+    margin-left: -5vw;
     margin-bottom: 125px;
 }
 
-.pic{
+.pic {
     margin-bottom: 25px;
     border-radius: 5px;
     margin-left: 25px;
@@ -31,34 +32,35 @@ body{
     height: 250px;
 }
 
-.pic:hover{
-    cursor: pointer
+.pic:hover {
+    cursor: pointer;
 }
 
 .text-container {
-    width: 750px;
+    width: 70vw;
     text-align: right;
 }
 
 .text {
-    margin-top: 20vh;
+    margin-top: 30vh; /* Adjust as needed */
     margin-left: 20vw;
     font-size: 35px;
     word-wrap: break-word;
+    text-align: center; /* Centering the text */
 }
 
-.pic-save{
+.pic-save {
     margin-left: 150px;
 }
 
-.footer{
+.footer {
     display: grid;
     place-items: center;
     font-size: 25px;
     margin-bottom: 25px;
 }
 
-.btn{
+.btn {
     font-size: 15px;
     position: absolute;
     top: 10px;
@@ -73,4 +75,38 @@ body{
     border: solid;
     border-width: 1px;
     border-radius: 4px;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .main-container {
+        width: 90vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    
+    .header-text{
+        margin-top: 25vh;
+    }
+
+    .pic {
+        width: 90vw;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    
+    .text-container {
+        margin-top: 0;
+        width: 90vw;
+        text-align: center;
+    }
+    
+    .text {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 25px;
+    }
 }
