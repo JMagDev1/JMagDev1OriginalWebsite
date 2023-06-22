@@ -1,34 +1,35 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-color: steelblue;
 }
 
-html{
+html {
     width: 100vw;
     height: 100vh;
 }
 
-.header{
+.header {
     margin-top: 25px;
-    font-size: 50px;
+    margin-left: 10vw;
+    font-size: 45px;
     font-family: 'Roboto', sans-serif;
 }
 
-.header-container{
+.header-container {
     display: grid;
     place-items: center;
 }
 
-
-.main-container{
+.main-container {
     display: flex;
+    flex-direction: column; /* Stacking elements vertically */
     align-items: center;
-    width: 1500px;
-    height: 500px;
+    width: 90vw;
+    height: auto; /* Adjusted to auto for responsiveness */
     margin-bottom: 100px;
 }
 
-.homepage-pic{
+.homepage-pic {
     margin-top: 100px;
     margin-bottom: 25px;
     border-radius: 5px;
@@ -37,36 +38,36 @@ html{
     height: 400px;
 }
 
-.pic:hover{
-    cursor: pointer
+.pic:hover {
+    cursor: pointer;
 }
 
 .text-container {
-    width: 900px;
+    width: 90vw;
     text-align: left;
 }
 
 .text {
-    width: 450px;
-    right: 150px;
-    margin-top: 20vh;
-    margin-left: 5vw;
+    width: 90vw;
+    margin-top: 20px; /* Adjusted for responsiveness */
+    margin-left: auto;
+    margin-right: auto;
     font-size: 35px;
     word-wrap: break-word;
 }
 
-.pic-save{
+.pic-save {
     margin-left: 150px;
 }
 
-.footer{
+.footer {
     display: grid;
     place-items: center;
     font-size: 25px;
     margin-bottom: 15px;
 }
 
-.btn{
+.btn {
     font-size: 15px;
     position: absolute;
     top: 10px;
@@ -81,4 +82,49 @@ html{
     border-width: 1px;
     color: #ffffff;
     border-radius: 4px;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .header {
+        font-size: 35px;
+        margin-left: 5vw;
+    }
+
+    .main-container {
+        margin-bottom: 50px;
+    }
+
+    .homepage-pic {
+        width: 90vw;
+        height: auto;
+        margin-left: 5vw;
+        margin-bottom: 20px;
+    }
+
+    .header-text{
+        margin-top: 30vh;
+    }
+
+    .text-container {
+        width: 90vw;
+        text-align: center;
+    }
+
+    .text {
+        width: 90vw;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .pic-save {
+        margin-left: 10px;
+    }
+
+    .footer {
+        font-size: 20px;
+    }
 }
