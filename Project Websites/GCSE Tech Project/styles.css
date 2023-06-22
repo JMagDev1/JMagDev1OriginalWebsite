@@ -1,72 +1,73 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-color: steelblue;
-}
-
-html{
+  }
+  
+  html {
     width: 100vw;
     height: 100vh;
-}
-
-.header{
+    overflow-x: hidden;
+  }
+  
+  .header {
     margin-top: 25px;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
-}
-
-.header-container{
+  }
+  
+  .header-container {
     display: grid;
     place-items: center;
-}
-
-
-.main-container{
+  }
+  
+  .main-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    width: 1500px;
-    height: 500px;
+    width: 100%;
+    max-width: 1500px;
     margin-bottom: 100px;
-}
-
-.homepage-pic{
+  }
+  
+  .homepage-pic {
     margin-top: 100px;
     margin-bottom: 25px;
     border-radius: 5px;
     margin-left: 25px;
     width: 50vw;
     height: 70vh;
-}
-
-.pic:hover{
-    cursor: pointer
-}
-
-.text-container {
+  }
+  
+  .pic:hover {
+    cursor: pointer;
+  }
+  
+  .text-container {
     width: 900px;
     text-align: left;
-}
-
-.text {
+  }
+  
+  .text {
     width: 450px;
     right: 150px;
     margin-top: 20vh;
     margin-left: 5vw;
     font-size: 35px;
     word-wrap: break-word;
-}
-
-.pic-save{
+  }
+  
+  .pic-save {
     margin-left: 150px;
-}
-
-.footer{
+  }
+  
+  .footer {
     display: grid;
     place-items: center;
     font-size: 25px;
     margin-bottom: 15px;
-}
-
-.btn{
+  }
+  
+  .btn {
     font-size: 15px;
     position: absolute;
     top: 10px;
@@ -81,19 +82,18 @@ html{
     border-width: 1px;
     color: #ffffff;
     border-radius: 4px;
-}
-
-@media only screen and (max-width: 768px) {
+  }
+  
+  @media only screen and (max-width: 768px) {
     .main-container {
-      flex-direction: column;
-      width: auto;
-      height: auto;
+      width: 90vw;
+      margin-bottom: 100px;
     }
   
     .homepage-pic {
-      width: 60vw;
-      height: 35vh;
-      margin: 25vw;
+      width: 80vw;
+      height: auto;
+      margin: 10px;
     }
   
     .text-container {
@@ -107,3 +107,4 @@ html{
       font-size: 25px;
     }
   }
+  
