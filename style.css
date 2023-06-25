@@ -389,7 +389,7 @@ body {
 
 
 /* Mobile styles */
-@media (max-width: 750px) {
+@media (max-width: 1800px) {
   body {
     font-size: 10px; /* Decrease the font size for mobile */
     overflow-x: hidden;
