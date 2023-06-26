@@ -1,0 +1,29 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:lightblue;
+}
+
+.visit-site-button{
+    width: 40vw;
+    height: 60vh;
+    margin-top: 5%;
+    font-size: 30px;
+    border: solid;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: rgb(182, 232, 248);
+    color: black;
+}
+
+.visit-site-button:hover{
+    border-color: black;
+}
+
+.button1{
+    margin-left: 5%;
+    margin-right: 5vw;
+}
